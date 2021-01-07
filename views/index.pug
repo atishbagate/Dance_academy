@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    title Atish Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | ADC
+            li #[a(href="/") Home]
+            li #[a(href="/") Contact Us]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") About]
+    section#introSection
+        div welcome to Atish Dance School
+        div.small get a Good Dance Classes in City
+
+    section#MissionSection
+        h1 Our Missions
+
+        div.card
+            h2 this is para
+            div.card-box
+                div.card-img
+                  img(src="/static/img/a1.jpg", alt="this is img")
+                 
+                div.card-content
+                  p this is good class
+        div.card
+            h2 this is para
+             div.card-box
+                div.card-img
+                  img(src="/static/img/a2.png", alt="this is img")
+                 
+                div.card-content
+                  p this is good class
+        div.card
+            h2 this is para
+             div.card-box
+                div.card-img
+                  img(src="/static/img/a3.jpg", alt="this is img")
+
+
+                div.card-content
+                  p this is good class
+
+    section#sponsorsSection
+        div.sponsortitle
+          h2 Our sponsors
+          div.sponsors
+            img(src="/static/img/l1.jpeg", alt="this is img" class="spimages")
+            img(src="/static/img/l2.png", alt="this is img" class="spimages")
+            img(src="/static/img/l3.png", alt="this is img" class="spimages")
+    
+    section#footer
+        div.copyright
+          | All right are reserved @ AtishDanceAcademy.com  
+    script
+      include ../static/index.js
