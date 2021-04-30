@@ -1,1 +1,2 @@
 this is git tutorial and we use git bash to change the code and push on github
+clear this 
